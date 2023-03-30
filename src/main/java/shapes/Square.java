@@ -3,10 +3,14 @@ package shapes;
 public class Square {
 
     public float side;
+    public String color;
 
-    public float calculateArea(float s){
+    public Square(float s){
         side = s;
-        float areaOfASquare = s * s;
+    }
+
+    public float calculateArea(){
+        float areaOfASquare = side * side;
         return areaOfASquare;
     }
 

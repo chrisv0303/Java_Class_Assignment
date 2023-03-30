@@ -6,10 +6,10 @@ public class StudentTestDrive {
 
         Student student1 = new Student();
         student1.printStudentInfo("Jessica", 15, 'B');
-        System.out.println("");
+        System.out.println("");//Prints empty space
+
         Student student2 = new Student();
         student2.printStudentInfo("David", 17, 'C');
-        System.out.println("");
 
     }
 }

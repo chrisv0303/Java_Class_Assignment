@@ -4,12 +4,16 @@ public class Triangle {
 
     public float base;
     public float height;
+    public String color;
 
-
-    public float calculateArea(float b, float h){
+    public Triangle(float b, float h){
         base = b;
         height = h;
-        float areaOfATriangle = (b * h) * 0.5f;
+    }
+
+
+    public float calculateArea(){
+        float areaOfATriangle = (base * height) * 0.5f;
         return areaOfATriangle;
     }
 

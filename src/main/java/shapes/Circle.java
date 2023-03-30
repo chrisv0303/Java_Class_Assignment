@@ -1,12 +1,15 @@
 package shapes;
 
 public class Circle {
-
     public float radius;
+    public String color;
 
-    public float calculateArea(float r){
+    public Circle(float r){
         radius = r;
-        float areaOfACircle = (float)Math.PI * (r * r);
+    }
+
+    public float calculateArea(){
+        float areaOfACircle = (float)Math.PI * (radius * radius);
         return areaOfACircle;
     }
 
