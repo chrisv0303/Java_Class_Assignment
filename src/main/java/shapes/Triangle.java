@@ -18,6 +18,6 @@ public class Triangle {
     }
 
     public String triangle(){
-        return "The area of a triangle is ";
+        return "The color of this triangle is " + color + ". It's area is " + calculateArea() + ".";
     }
 }

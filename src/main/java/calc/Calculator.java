@@ -30,4 +30,11 @@ public class Calculator {
         int result = firstNum / secondNum;
         return result;
     }
+
+    public void resultOfOperators(){
+        System.out.println("Addition value: " + add());
+        System.out.println("Subtraction value: " + subtract());
+        System.out.println("Multiplication value: " + multiply());
+        System.out.println("Division value: " + divide());
+    }
 }

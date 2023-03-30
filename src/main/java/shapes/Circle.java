@@ -14,6 +14,6 @@ public class Circle {
     }
 
     public String circle(){
-        return "The area of a circle is ";
+        return "The color of this circle is " + color + ". It's area is " + calculateArea() + ".";
     }
 }

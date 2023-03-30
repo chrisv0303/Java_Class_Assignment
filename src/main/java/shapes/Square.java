@@ -15,6 +15,6 @@ public class Square {
     }
 
     public String square(){
-        return "The area of a square is ";
+        return "The color of this square is " + color + ". It's area is " + calculateArea() + ".";
     }
 }
